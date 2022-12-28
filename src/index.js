@@ -7,5 +7,7 @@ const isLoading = false;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App isLoading={isLoading}/>
+    <div>
+        <App isLoading={isLoading}/>
+    </div>
 );
