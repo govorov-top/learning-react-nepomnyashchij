@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import {FormWhithRef} from "./components/FormWhithRef";
+import {FormUnControlled} from "./components/FormUnControlled";
 
-class App extends Component{
+class AppFormUnControlled extends Component{
     constructor(props) {
         super(props);
         this.state = {}
@@ -9,10 +9,10 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-                <FormWhithRef/>
+                <FormUnControlled/>
             </div>
         ) ;
     }
 }
 
-export default App;
+export default AppFormUnControlled;
