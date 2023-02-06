@@ -5,6 +5,7 @@ function Card(props) {
     const {
         Title: title,
         Year: year,
+        Plot: plot,
         Type: type,
         Poster: poster
     } = props;
@@ -17,7 +18,7 @@ function Card(props) {
                 <p>{year} <span className="right">{type}</span></p>
             </div>
             <div className="card-content">
-                <p></p>
+                <p>{plot}</p>
             </div>
             <div className="card-action">
                 <a href="/">This is a link</a>
