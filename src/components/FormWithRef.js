@@ -1,5 +1,5 @@
 import React from 'react'
-class FormWhithRef extends React.Component {
+class FormWithRef extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -45,4 +45,4 @@ class FormWhithRef extends React.Component {
         )
     }
 }
-export {FormWhithRef}
+export {FormWithRef}

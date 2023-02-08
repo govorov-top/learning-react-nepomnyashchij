@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {FormWhithRef} from "./components/FormWhithRef";
+import {FormWithRef} from "./components/FormWithRef";
 
 class App extends Component{
     constructor(props) {
@@ -9,7 +9,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-                <FormWhithRef/>
+                <FormWithRef/>
             </div>
         ) ;
     }
