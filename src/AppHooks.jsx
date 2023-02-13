@@ -1,12 +1,10 @@
-import UseStateHook from "./hooks/UseStateHook";
-import UseEffectHook from "./hooks/UseEffectHook";
+import UseReducerHook from "./hooks/UseReducerHook";
 
 function AppHooks () {
 
     return (
         <div className="App">
-             {/* <UseStateHook/>*/}
-            <UseEffectHook/>
+             <UseReducerHook/>
         </div>
     ) ;
 }

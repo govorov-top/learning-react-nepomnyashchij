@@ -1,8 +1,5 @@
 import React, {Component} from "react";
-import {FormWithRef} from "./components/FormWithRef";
-import Counter from "./components/Counter";
-import Timer from "./components/Timer";
-import TimerFunctional from "./components/TimerFunctional";
+import TimerUseReducer from "./components/TimerUseReducer";
 
 class App extends Component{
     constructor(props) {
@@ -12,8 +9,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-                <TimerFunctional/>
-                <FormWithRef/>
+                <TimerUseReducer/>
             </div>
         ) ;
     }
